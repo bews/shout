@@ -1,6 +1,6 @@
 <div class="msg {{type}} {{#if self}}self{{/if}}">
 	<span class="time">
-		{{tz time}}
+		{{time}}
 	</span>
 	<span class="from">
 		{{#if from}}
