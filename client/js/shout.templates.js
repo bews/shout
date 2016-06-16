@@ -76,7 +76,7 @@ templates['msg'] = template({"1":function(depth0,helpers,partials,data) {
   return "self";
   },"3":function(depth0,helpers,partials,data) {
   var helper, helperMissing=helpers.helperMissing, escapeExpression=this.escapeExpression, functionType="function";
-  return "		<a href=\"#\" class=\"user\" style=\"color: #"
+  return "		<a href=\"javascript:void(0);\" class=\"user\" style=\"color: #"
     + escapeExpression(((helpers.stringcolor || (depth0 && depth0.stringcolor) || helperMissing).call(depth0, (depth0 != null ? depth0.from : depth0), {"name":"stringcolor","hash":{},"data":data})))
     + "\">"
     + escapeExpression(((helper = (helper = helpers.mode || (depth0 != null ? depth0.mode : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"mode","hash":{},"data":data}) : helper)))
@@ -125,7 +125,7 @@ templates['msg_action'] = template({"1":function(depth0,helpers,partials,data) {
   if (stack1 != null) { buffer += stack1; }
   buffer += "\">\n	<span class=\"time\">\n		"
     + escapeExpression(((helpers.tz || (depth0 && depth0.tz) || helperMissing).call(depth0, (depth0 != null ? depth0.time : depth0), {"name":"tz","hash":{},"data":data})))
-    + "\n	</span>\n	<span class=\"from\"></span>\n	<span class=\"text\">\n		<a href=\"#\" class=\"user\" style=\"color:#"
+    + "\n	</span>\n	<span class=\"from\"></span>\n	<span class=\"text\">\n		<a href=\"javascript:void(0);\" class=\"user\" style=\"color:#"
     + escapeExpression(((helpers.stringcolor || (depth0 && depth0.stringcolor) || helperMissing).call(depth0, (depth0 != null ? depth0.from : depth0), {"name":"stringcolor","hash":{},"data":data})))
     + "\">"
     + escapeExpression(((helper = (helper = helpers.mode || (depth0 != null ? depth0.mode : depth0)) != null ? helper : helperMissing),(typeof helper === functionType ? helper.call(depth0, {"name":"mode","hash":{},"data":data}) : helper)))
